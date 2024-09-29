@@ -1,0 +1,21 @@
+<div  class="parent">
+    <div class="wrapper">
+        <div class="box">
+            <form [formGroup]="loginForm" (ngSubmit)="OnSubmit()">
+                <h1>Login</h1>
+    
+                <div class="username">
+                    <input formControlName="phone" type="tel" placeholder="Enter username" id="username" autocomplete="off" required>
+                    <i class="fa-regular fa-envelope"></i>
+                </div>
+    
+                <div class="password">
+                    <input formControlName="password" type="password" placeholder="Enter password" id="password" autocomplete="off" required>
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+    
+                <button id="btn" type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+</div>

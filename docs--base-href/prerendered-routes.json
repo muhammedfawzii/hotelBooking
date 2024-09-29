@@ -1,0 +1,11 @@
+{
+  "routes": [
+    "/booking-calendar",
+    "/booking-list",
+    "/dashboard",
+    "/login",
+    "/new-booking",
+    "/rooms",
+    "/users"
+  ]
+}
